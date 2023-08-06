@@ -99,7 +99,7 @@ func FindElement(slice []int, v int) (elem int, error error) {
 	return 0, error
 }
 
-func FindIndexElement(slice []int, v int) (i int, err error ) {
+func FindIndexElement(slice []int, v int) (i int, err error) {
 	for index, value := range slice {
 		if(value == v){
 			i = index
@@ -223,3 +223,5 @@ func Maps(x []int) (result []int) {
   }
   return result
 }
+
+

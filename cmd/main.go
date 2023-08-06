@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"remember/slices"
+	mapas "remember/maps"
 )
 
 func main() {
-	fmt.Println(slices.ReverseSeq(3))
+	fmt.Println(mapas.IsMapFilled(map[string]int{}))
 }
