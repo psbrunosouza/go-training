@@ -1,10 +1,7 @@
 package main
 
-import (
-	"fmt"
-	mapas "remember/maps"
-)
+import exstringer "remember/stringer"
 
 func main() {
-	fmt.Println(mapas.IsMapFilled(map[string]int{}))
+	exstringer.Exec()
 }
